@@ -1,0 +1,5 @@
+# JetBrains editor
+.idea
+
+# Don't commit your reports!
+*.xml
