@@ -1,0 +1,23 @@
+html {
+    font-family: Consolas, monospace;
+    font-size: 12pt;
+    background: #1a1c20;
+    color: #f3e9df;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.auth-result {
+    padding: 4px 0;
+}
+
+.auth-result > div {
+    padding: 4px 8px;
+    border-bottom: 1px solid;
+}
+
+.auth-result > div:last-child {
+    border-bottom: none;
+}

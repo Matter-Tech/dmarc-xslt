@@ -1,9 +1,9 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
-# For all arcives in current dir
+# For all archives in current dir
 for f in $(ls *.(zip|gz)); do
-  # 1: Exctract archive, and output to STDOUT
+  # 1: Extract archive, and output to STDOUT
   # 
   # 2: Pretty-print the XML
   #    Sometimes, the reports are inlined, no linebreaks.
