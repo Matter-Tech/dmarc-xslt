@@ -2,7 +2,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
-      <link rel="stylesheet" href="dmarc.css"/>
+      <head>
+        <link rel="stylesheet" type="text/css" href="dmarc.css" />
+      </head>
       <body>
         <h1>DMARC Report</h1>
 
