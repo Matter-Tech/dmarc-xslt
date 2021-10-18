@@ -21,3 +21,7 @@ th, td {
 .auth-result > div:last-child {
     border-bottom: none;
 }
+
+table, tr, td, th, .auth-result > div {
+    border-color: #808080;
+}

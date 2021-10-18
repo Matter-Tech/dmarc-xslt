@@ -9,7 +9,7 @@ In an XML report file, add a reference to dmarc.xslt, e.g. like so:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Matter-Tech/dmarc-xslt/master/dmarc.xslt" ?>
+<?xml-stylesheet type="text/xsl" href="https://static.thisismatter.com/dmarc-xslt/dmarc.xslt" ?>
 
 <feedback>
   Here be reports
@@ -32,7 +32,7 @@ extract-reports.sh  'google.com!example.org!1622592000!1622678399.xml'  'google.
 
 $ cat 'google.com!example.org!1622592000!1622678399.xml'
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Matter-Tech/dmarc-xslt/master/dmarc.xslt" ?>
+<?xml-stylesheet type="text/xsl" href="https://static.thisismatter.com/dmarc-xslt/dmarc.xslt" ?>
 <feedback>
   <report_metadata>
     <org_name>google.com</org_name>

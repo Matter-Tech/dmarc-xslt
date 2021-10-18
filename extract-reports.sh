@@ -12,5 +12,5 @@ for f in $(ls *.(zip|gz)); do
   # 3: Insert the stylesheet node at line 2
   # 
   # 4: Output to xml file, using archive name (without extensions) as filename.
-  7z e "$f" -so | xmllint --format - | sed '2i <?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Matter-Tech/dmarc-xslt/master/dmarc.xslt" ?>' > "$(sed -E 's/\.(xml|gz|zip)//g' <<< $f).xml"
+  7z e "$f" -so | xmllint --format - | sed '2i <?xml-stylesheet type="text/xsl" href="https://static.thisismatter.com/dmarc-xslt/dmarc.xslt" ?>' > "$(sed -E 's/\.(xml|gz|zip)//g' <<< $f).xml"
 done
